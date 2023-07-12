@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <h1 style="color: #fff;">A Text Editor</h1>
+        <div class="editor">
+            <div class="clkd">
+                <button id="bold" class="btn sm">
+                    <i class="fa-solid fa-bold"></i>
+                </button>
+                <button id="italic" class="btn sm">
+                    <i class="fa-solid fa-italic"></i>
+                </button>
+                <button id="underline" class="btn sm">
+                    <i class="fa-solid fa-underline"></i>
+                </button>
+                <button id="strikethrough" class="btn sm">
+                    <i class="fa-solid fa-strikethrough"></i>
+                </button>
+                <button id="superscript" class="btn sm">
+                    <i class="fa-solid fa-superscript"></i>
+                </button>
+                <button id="subscript" class="btn sm">
+                    <i class="fa-solid fa-subscript"></i>
+                </button>
+                <button id="insertOrderedList" class="btn sm">
+                    <i class="fa-solid fa-list-ol"></i>
+                </button>
+                <button id="insertUnorderedList" class="btn sm">
+                    <i class="fa-solid fa-list-ul"></i>
+                </button>
+                <button id="undo" class="btn sm">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+                <button id="redo" class="btn sm">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+                <button id="createlink" class="btn sm">
+                    <i class="fa-solid fa-link"></i>
+                </button>
+                <button id="unlink" class="btn sm">
+                    <i class="fa-solid fa-link-slash"></i>
+                </button>
+                <button id="justifyLeft" class="btn sm">
+                    <i class="fa-solid fa-align-left"></i>
+                </button>
+                <button id="justifyCenter" class="btn sm">
+                    <i class="fa-solid fa-align-center"></i>
+                </button>
+                <button id="justifyRight" class="btn sm">
+                    <i class="fa-solid fa-align-right"></i>
+                </button>
+                <button id="JustifyFull" class="btn sm">
+                    <i class="fa-solid fa-align-justify"></i>
+                </button>
+                <button id="indent" class="btn sm">
+                    <i class="fa-solid fa-indent"></i>
+                </button>
+                <button id="outdent" class="btn sm">
+                    <i class="fa-solid fa-outdent"></i>
+                </button>
+                <button id="formatBlock" class="btn sm">
+                    <select name="" id="head">
+                        <option value="H1">H1</option>
+                        <option value="H2">H2</option>
+                        <option value="H3">H3</option>
+                        <option value="H4">H4</option>
+                        <option value="H5">H5</option>
+                        <option value="H6">H6</option>
+                    </select>
+                </button>
+                <button id="fontSize" class="btn sm">
+                    <select name="" id="size">
+                        <option value=1>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                    </select>
+                </button>
+                <div class="clr">
+                    <button id="foreColor" class="btn sm">
+                        <input type="color" name="" id="color">
+                        Font Color
+                    </button>
+                    <button id="backColor" class="btn sm">
+                        <input type="color" name="" id="back">
+                        Highlight Color
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div id="textarea" contenteditable="true"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: #2176ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.editor{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 2rem;
+    width: 2.6rem;
+    background: #fff;
+    cursor: pointer;
+    border: 0rem;
+}
+#formatBlock{
+    width: 3rem;
+}
+#head{
+    width: 3rem;
+    height: 2rem;
+}
+#fontSize{
+    width:3rem
+}
+#size{
+    width: 3rem;
+    height: 2rem;
+}
+.clr{
+    display: flex;
+    justify-content: center;
+}
+#foreColor{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+}
+#backColor{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+#color{
+    border: 0rem;
+}
+#back{
+    border: 0rem;
+}
+#textarea{
+    width: 29rem;
+    height: 20rem;
+    border: 0.1rem solid #000;
+}
+.active{
+    background: #fff;
+    border: 0rem;
+    height: 2rem;
+    width: 2.6rem;
+    cursor: pointer;
+}
+.nactive{
+    background: #fff;
+    border: 0rem;
+    height: 2rem;
+    width: 2.6rem;
+    cursor:pointer
+}
